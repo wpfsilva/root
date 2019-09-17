@@ -3,7 +3,7 @@
 #include <math.h>
 
 int main();
-void main1(),prog2(),prog3(),prog4(),prog5(),prog6(),prog7();
+void prog1(),prog2(),prog3(),prog4(),prog5(),prog6(),prog7();
 
 int main()
 {
@@ -14,7 +14,7 @@ int main()
     scanf("%d", &a);
     if (a == 1)
     {
-        main1();
+        prog1();
     }
     else if (a == 2)
     {
@@ -51,7 +51,7 @@ int main()
     return 0;
     }
 
-void main1()
+void prog1()
 {
     double  a,b,resultado;
     system("cls");
